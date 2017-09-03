@@ -1,6 +1,6 @@
 import React,{Component} from "react";
 
-class Recommend extends Component{
+class Search extends Component{
 	constructor(prop){
 		super(prop);
 	}
@@ -8,9 +8,9 @@ class Recommend extends Component{
 
 	render(){
 		return <div>
-			Recommend组件
+			search组件
 		</div>
 	}
 }
 
-export default Recommend;
+export default Search;

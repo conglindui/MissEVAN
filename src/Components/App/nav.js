@@ -1,4 +1,5 @@
 import React,{Component} from "react";
+import {NavLink} from "react-router-dom";
 
 class Nav extends Component{
 	constructor(prop){
@@ -8,7 +9,11 @@ class Nav extends Component{
 
 	render(){
 		return <nav>
-			nav组件
+			<ul>
+				<li><NavLink to="/list">音单</NavLink></li>
+				<li><NavLink to="/recommend">推荐</NavLink></li>
+				<li><NavLink to="/type">分类</NavLink></li>
+			</ul>
 		</nav>
 	}
 }
