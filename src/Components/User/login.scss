@@ -1,0 +1,90 @@
+$base:100px;
+@function px2rem($px){
+	@return $px/$base *1rem;
+}
+
+
+#container{
+	width:80%;
+	height:100%;
+	margin:px2rem(30px) auto;
+	overflow:hidden;
+	font-size:px2rem(20px);
+
+	.from-mz{
+		font-size: px2rem(40px);
+
+	}
+	.from-user{
+		width: 100%;
+		height: px2rem(80px);
+		font-size: px2rem(20px);
+		margin-top: px2rem(30px);
+		border-radius:px2rem(7px);
+		border-style:none;
+		padding-left:px2rem(15px);
+		border:1px solid #e5e5e5;
+
+
+	}
+	.from-password{
+		width: 100%;
+		height: px2rem(80px);
+		font-size: px2rem(20px);
+		margin-top: px2rem(30px);
+		border-radius:px2rem(7px);
+		border-style:none;
+		border:1px solid #e5e5e5;
+		padding-left:px2rem(15px)
+
+
+
+	}
+	.contor{
+		margin-top: px2rem(30px);
+
+			.from-checkbox{
+				margin-top: px2rem(30px);
+				float: left;
+				margin-top: px2rem(5px)
+
+			}
+			.from-jzw{
+				float: left;
+				margin-left: px2rem(10px);
+			}
+			.from-wjmm{
+			// position:absolute;
+			// right:px2rem(1px);
+			// top:px2rem(30px);
+			float: right;
+			color: #c75e54;
+			
+			}
+	}
+	.from-dl{
+		width: 100%;
+		height: px2rem(80px);
+		font-size: px2rem(20px);
+		margin-top: px2rem(30px);
+		border-radius:px2rem(7px);
+		background:#c14a3f;
+		color: #fff;
+		border-style:none;
+
+	}
+	.from-zc{
+		width: 100%;
+		height: px2rem(80px);
+		font-size: px2rem(20px);
+		margin-top: px2rem(30px);
+		border-radius:px2rem(7px);
+		background:#fff;
+		border-style:none;
+		border:1px solid #e5e5e5;
+
+
+
+
+	}
+}
