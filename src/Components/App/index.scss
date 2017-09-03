@@ -1,3 +1,8 @@
+$base:100px;
+@function px2rem($px){
+  @return $px/$base *1rem;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -116,4 +121,40 @@ aside{
   opacity: 0.01;
   transform: translateX(100%);
   transition: all 500ms ease-in;
+}
+
+
+#footer{
+  width: 80%;
+  height: px2rem(130px);
+  margin:0 auto;
+  overflow: hidden;
+  font-family: "Hiragino";
+  color: #9e9e9e;
+
+  
+  .MemberPage{
+    font-size: px2rem(27px);
+    display: flex;
+    justify-content:space-between;
+    line-height: px2rem(70px);
+
+  }
+  span{
+        width: px2rem(130px);
+        height: px2rem(70px);
+
+  }
+  .from-cat{
+    background-image:url("../../assets/img/sprite-icons.png");
+    background-position: px2rem(310px) px2rem(-370px);
+
+    width: px2rem(70px);
+    height: px2rem(70px)
+  }
+  .button{
+    font-size: px2rem(26px);
+    text-align: center;
+    margin-top: px2rem(10px)
+  }
 }

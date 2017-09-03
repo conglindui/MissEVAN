@@ -29,5 +29,7 @@ class Header extends Component {
         </header>
     }
 }
+document.documentElement.style.fontSize = document.documentElement.clientWidth/750*100+"px";
+
 
 export default Header;

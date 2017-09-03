@@ -8,9 +8,16 @@ class Footer extends Component{
 
 	render(){
 		return <div id="footer">
-			footer组件
+		<ul>
+			<li className = "MemberPage">
+				<span>客户端</span>
+				<span className = "from-cat"></span>
+				<span>返回顶部</span></li>
+			<li className = "button">MissEvan弹幕音频网 京ICP备:14055174号-1</li>
+		</ul>
 		</div>
 	}
 }
+
 
 export default Footer;
