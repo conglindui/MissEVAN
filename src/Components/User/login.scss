@@ -3,8 +3,8 @@ $base:100px;
 	@return $px/$base *1rem;
 }
 
-
-#container{
+#login{
+	.container{
 	width:80%;
 	height:100%;
 	margin:px2rem(30px) auto;
@@ -83,8 +83,6 @@ $base:100px;
 		border-style:none;
 		border:1px solid #e5e5e5;
 
-
-
-
 	}
+}
 }

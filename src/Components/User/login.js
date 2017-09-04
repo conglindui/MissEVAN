@@ -8,8 +8,8 @@ class Login extends Component{
 
 
 	render(){
-		return <div>
-		<div id = "container">
+		return <div id="login">
+		<div className = "container">
 			<p className = "from-mz">登录 MissEvan</p>
 			<input type = "text" placeholder = "手机号/邮箱" className = "from-user"/>
 			<input type = "password" placeholder = "密码" className = "from-password"/>
